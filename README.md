@@ -72,6 +72,9 @@ SUSHIディレクトリの中にあるgcode.3mfファイルすべて(SHSHI_rail_
 - power_module_plate\gear_plate_base : レーザー2.5mm
 - power_module_plate\stopper : レーザー2.5mm
 
+### 皿
+- ./dish_print : レーザー2.5mm 17セット
+
 
 <p align="right">(<a href="#top">Back to the top</a>)</p>
 
