@@ -1,14 +1,14 @@
-# ${1}
+# Conveyor
 
 <div id="top"></div>
 
 ## Table of Contents 
 
 1. [about](#about)
-2. [directory construction](#directory construction)
+2. [directory_construction](#directory_construction)
 3. [environment](#environment)
-4. [how to print](#how to print)
-5. [trouble shooting](#trouble shooting)
+4. [how to print](#how_to_print)
+5. [trouble_shooting](#trouble_shooting)
 
 # about
 
@@ -16,7 +16,7 @@ D2ロボコン用の寿司テーブルです。
 
 <p align="right">(<a href="#top">Back to the top</a>)</p>
 
-## directory construction
+## directory_construction
 
 print
 
@@ -28,7 +28,7 @@ print
 ## environment
 
 
-## how to print
+## how_to_print
 作成は3Dプリンタとレーザーカッターを使用します。  
 プリントデータはすべてprintディレクトリに入っています。  
 各モジュールに必要なプリントは以下の通りです。  
@@ -41,6 +41,7 @@ power_module : 1個
 ### 3dプリンタパーツ　　
 SUSHIディレクトリの中にあるgcode.3mfファイルすべて(SHSHI_rail_A1, SUSHI_rail_mini はそれぞれ2回ずつ)
 ### curve_module
+![alt text](imgs/curve_module.png)
 - curve_module\back_under : レーザー5.5mm
 - curve_module\back_upper : レーザー5.5mm
 - curve_module\front : レーザー5.5mm
@@ -48,6 +49,7 @@ SUSHIディレクトリの中にあるgcode.3mfファイルすべて(SHSHI_rail_
 - curve_module\rail_base : レーザー2.5mm
 - curve_module\base : レーザー2.5mm 2枚
 ### linear_module
+![alt text](imgs/linear_module.png)
 - linear_module\back_under : レーザー5.5mm
 - linear_module\back_upper : レーザー5.5mm
 - linear_module\front : レーザー5.5mm
@@ -55,6 +57,7 @@ SUSHIディレクトリの中にあるgcode.3mfファイルすべて(SHSHI_rail_
 - linear_module\rail_base : レーザー2.5mm
 - linear_module\base : レーザー2.5mm 2枚
 ### power_module
+![alt text](./imgs/power_module.png)
 - power_module_gears\M3_15 : レーザー5.5mm
 - power_module_gears\M3_15_input : レーザー5.5mm
 - power_module_gears\M3_38 : レーザー5.5mm 2枚
@@ -78,7 +81,7 @@ SUSHIディレクトリの中にあるgcode.3mfファイルすべて(SHSHI_rail_
 
 <p align="right">(<a href="#top">Back to the top</a>)</p>
 
-## trouble shooting
+## trouble_shooting
 
 
 <p align="right">(<a href=\"#top\">Back to the top</a>)</p>
