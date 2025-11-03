@@ -47,8 +47,10 @@ SUSHIディレクトリの中にあるgcode.3mfファイルすべて(SHSHI_rail_
 
 #### パラメーター
 MDFのパラメータです(2025/10/31)  
-2.5mm : 850,70,3
-5.5mm : 450,80,3  
+2.5mm : 850,75,3
+5.5mm : 450,80,3
+
+高さ調節は2.5mm、5.5mmともに2.5mmに合わせてください。
 
 #### curve_module
 ![alt text](imgs/curve_module.png)
@@ -58,6 +60,7 @@ MDFのパラメータです(2025/10/31)
 - curve_module\base : 2.5mm
 - curve_module\rail_base : 2.5mm
 - curve_module\base : 2.5mm / 2枚
+- curve_module\wall : 2.5mm
 #### linear_module
 ![alt text](imgs/linear_module.png)
 - linear_module\back_under : 5.5mm
@@ -66,6 +69,7 @@ MDFのパラメータです(2025/10/31)
 - linear_module\base : 2.5mm
 - linear_module\rail_base : 2.5mm
 - linear_module\base : 2.5mm / 2枚
+- linear_module\wall : 2.5mm
 #### power_module
 ![alt text](./imgs/power_module.png)
 - power_module_gears\M3_15 : 5.5mm / 2枚
@@ -76,6 +80,9 @@ MDFのパラメータです(2025/10/31)
 - power_module_gears\roller : 5.5mm
 
 - power_module_motor\gear_plate_cover : 5.5mm
+- power_module_motor\gear_plate_cover_2 : 5.5mm / 2枚
+- power_module_motor\gear_plate_cover_3 : 5.5mm
+- power_module_motor\gear_plate_cover_4 : 5.5mm
 - power_module_motor\motor_setter_fixer : 5.5mm
 - power_module_motor\motor_setter_front : 5.5mm
 - power_module_motor\motor_setter_middle : 5.5mm
@@ -86,7 +93,6 @@ MDFのパラメータです(2025/10/31)
 - power_module_plate\gear_plate_3 : 5.5mm
 - power_module_plate\gear_plate_base : 2.5mm
 - power_module_plate\stopper : 2.5mm
-- power_module_plate\spacer_wide : 5.5mm / 4枚
 
 #### 皿
 - ./dish_print : 2.5mm / 17セット
