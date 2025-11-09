@@ -58,27 +58,27 @@ MDFのパラメータです(2025/10/31)
 - curve_module\back_upper : 5.5mm
 - curve_module\front : 5.5mm
 - curve_module\base : 2.5mm
-- curve_module\rail_base : 2.5mm
+- curve_module\belt_rail : 2.5mm
 - curve_module\base : 2.5mm / 2枚
 - curve_module\wall : 2.5mm
 #### linear_module
 ![alt text](imgs/linear_module.png)
-- linear_module\back_under : 5.5mm
+- linear_module\connector_base : 5.5mm
 - linear_module\back_upper : 5.5mm
 - linear_module\front : 5.5mm
 - linear_module\base : 2.5mm
-- linear_module\rail_base : 2.5mm
+- linear_module\belt_rail : 2.5mm
 - linear_module\base : 2.5mm / 2枚
 - linear_module\wall : 2.5mm
 #### power_module
 ![alt text](./imgs/power_module.png)
-- power_module_gears\M3_15 : 5.5mm / 2枚
+- power_module_gears\M3_15 : 5.5mm / 3枚
 - power_module_gears\M3_15_input : 5.5mm / 2枚
 - power_module_gears\M3_15_hole_small : 5.5mm / 2枚
-- power_module_gears\M3_15_input_hole_small : 5.5mm / 1枚
+- power_module_gears\M3_38_hole_small : 5.5mm
 - power_module_gears\M3_38 : 5.5mm / 3枚
 - power_module_gears\roller : 5.5mm
-
+  
 - power_module_motor\gear_plate_cover : 5.5mm
 - power_module_motor\gear_plate_cover_2 : 5.5mm / 2枚
 - power_module_motor\gear_plate_cover_3 : 5.5mm
@@ -86,7 +86,8 @@ MDFのパラメータです(2025/10/31)
 - power_module_motor\motor_setter_fixer : 5.5mm
 - power_module_motor\motor_setter_front : 5.5mm
 - power_module_motor\motor_setter_middle : 5.5mm
-
+- power_module_motor\motor_setter_spacer : 5.5mm
+  
 - power_module_plate\connector : 2.5mm / 3枚
 - power_module_plate\gear_plate_1 : 5.5mm
 - power_module_plate\gear_plate_2 : 5.5mm, 2.5mm
