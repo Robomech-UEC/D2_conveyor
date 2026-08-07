@@ -13,6 +13,7 @@
 # about
 
 D2ロボコン用の寿司テーブルです。
+2026年度はCエリアに使用予定です。（8月6日時点）
 
 <p align="right">(<a href="#top">Back to the top</a>)</p>
 
@@ -27,12 +28,15 @@ print
 
 ## environment
 Inventor 2026で作成。  
-3Dプリンタはbamboolab A1mini, A1を使用
+3Dプリンタはbamboolab P1S, A1miniを使用
 
 ## how_to_print
+
 作成は3Dプリンタとレーザーカッターを使用します。  
 プリントデータはすべてprintディレクトリに入っています。  
 各モジュールに必要なプリントは以下の通りです。  
+
+2026年度はパワーモジュールのギアをMDFから3Dプリンタ部品に交換する予定です。
 
 ### 最小モジュール構成数
 curve_module : 8個
@@ -52,6 +56,7 @@ MDFのパラメータです(2025/10/31)
 
 高さ調節は2.5mm、5.5mmともに2.5mmに合わせてください。
 
+。
 #### curve_module
 ![alt text](imgs/curve_module.png)
 - curve_module\back_under : 5.5mm
@@ -101,6 +106,6 @@ MDFのパラメータです(2025/10/31)
 <p align="right">(<a href="#top">Back to the top</a>)</p>
 
 ## trouble_shooting
-動かないときは丸山を呼んでください。
+2026年度は動かないときは鎌田（HR部隊員、25年度入学）を呼んでください。
 
 <p align="right">(<a href=\"#top\">Back to the top</a>)</p>
