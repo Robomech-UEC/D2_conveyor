@@ -13,7 +13,7 @@
 # about
 
 D2ロボコン用の寿司テーブルです。
-2026年度はCエリアに使用予定です。（8月6日時点）
+2026年度はCエリアに使用予定です。（10月11日時点）
 
 <p align="right">(<a href="#top">Back to the top</a>)</p>
 
@@ -38,10 +38,10 @@ Inventor 2026で作成。
 
 2026年度はパワーモジュールのギアをMDFから3Dプリンタ部品に交換する予定です。
 
-### 最小モジュール構成数
+### モジュール構成数
 curve_module : 8個
-linear_module : 2個
-power_module : 1個  
+linear_module : 8個
+power_module : 2個  
 
 ### 3dプリンタパーツ　　
 SUSHIディレクトリの中にあるgcode.3mfファイルすべて(SHSHI_rail_A1, SUSHI_rail_mini はそれぞれ2回ずつ)
